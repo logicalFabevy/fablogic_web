@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* <!------------------header nevbar---------------> */
+.logo{
+    width: 15%;
+    text-align: center;
+}
+
+.navbar-brand{
+    display: block;
+    text-align: center;
+}
+
+.navbar-brand img{
+    width: 120px;
+}
+
+.navbar-nav{
+    width: 68%;
+    justify-content: center;
+}
+
+.navbar-expand-lg{
+    width: 100%;
+    margin-right: 50pxs;
+    color: white;
+    background-color: #0E0A31;
+}
+a.dropdown-item{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a#navbarDropdown {
+    color: white;
+    font-size: 16px;
+    padding: 32px 20px;
+    font-weight: bold;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item:after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #43BAFF;
+    transition: all 1s ease;
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+.nav-item:hover::after{
+    width: 100%;
+}
+ul.dropdown-menu.head-on{
+    display: block;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease;
+    visibility: hidden;
+}
+a.dropdown-item:hover{
+   color : #43BAFF;
+   background-color: none;
+}
+.nav-item.dropdown:hover .dropdown-menu.head-on{
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+ul.dropdown-menu.head-tree{
+    display: block;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease;
+    visibility: hidden;
+}
+
+.nav-item.dropdown:hover .dropdown-menu.head-tree{
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.qus-call{
+    display: flex;
+    width: 32%;
+}
+.qus-call-icon{
+    color: #43BAFF;
+    display: block;
+    margin-top: 12px;
+    padding-right: 25px;
+    font-size: 28px;
+}
+.qus-call-num h3{
+color: #CCCCCC;
+font-size: 14px;
+line-height: 1.6em;
+}
+
+.qus-call-num{
+color: #FFFFFF;
+font-family: "Montserrat", Sans-serif;
+font-size: 16px;
+font-weight: 600!important;
+}
+.btn{
+    border-radius: 0px!important;
+}
+.btn-outline-success{
+    background-color: #43BAFF!important;
+    min-width: auto;
+    margin-left: 40px;
+}
+.btn-outline-success:hover{
+    background-color: #7141b1!important;
+    color: white;
+}
+.dropdown-item{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+/* <!------------------Carousel Section-3  -------------------> */
+
+#logo-slider-sec {
+    background: #F8F8F8;
+    margin: 45px 0px;
+}
+
+.logo-slider-con {
+    width: 80%;
+    margin: auto;
+}
+
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+    display: none;
+    width:70%;
+}
+
+.logo-slider-img {
+    padding: 70px 0px;
+}
+
+.logo-slider-img img {
+    filter: contrast(0%);
+    opacity: 0.7;
+    transition: all 0.6s linear;
+}
+
+.logo-slider-img4 {
+    max-width: 55%;
+    margin: auto;
+}
+
+.logo-slider-img img:hover {
+    filter: contrast(100%);
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+   /*--------------------Custmor Section-6 ------------------*/
+#custmor{
+    margin: 20px 0px;
+}
+.containers {
+    width: 99%;
+}
+
+.bg-img1 {
+    background: url('../assets/fun-fact1.jpg'), no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+.bg-img2 {
+    background: url('../assets/fun-fact2.jpg'), no-repeat;
+    background-size: cover;
+    
+}
+.col-3{
+    padding:110px 60px 120px;
+}
+
+.col-3 h2{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1;
+    color: #43baff;
+    margin-bottom: 18px;
+    }
+    .col-3 h6{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 10px
+    }
+    .col-3 p{
+        color: #6d6d6d;
+        margin: 0px 0px 10px;
+        font-size: 17px;
+        line-height: 1.8;
+        font-family: "Nunito Sans",sans-serif;
+    }
+.col-back {
+    background: #f8f8f8;
+}
+.col-3 img {
+    width: 100%;
+}
+.col-back a{
+    line-height: 2;
+    text-decoration: none;
+    color: #43baff;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Nunito Sans",sans-serif;
+}
