@@ -19,7 +19,7 @@
 }
 
 .navbar-nav{
-    width: 68%;
+    width: 60%;
     justify-content: center;
 }
 
@@ -36,7 +36,7 @@ a.dropdown-item{
 }
 a#navbarDropdown {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     padding: 32px 20px;
     font-weight: bold;
 }
@@ -88,7 +88,9 @@ ul.dropdown-menu.head-tree{
 
 .qus-call{
     display: flex;
-    width: 32%;
+    width: 40%;
+    justify-content:flex-end;
+
 }
 .qus-call-icon{
     color: #43BAFF;
@@ -106,7 +108,7 @@ line-height: 1.6em;
 .qus-call-num{
 color: #FFFFFF;
 font-family: "Montserrat", Sans-serif;
-font-size: 16px;
+font-size: 14px;
 font-weight: 600!important;
 }
 .btn{
@@ -123,7 +125,7 @@ font-weight: 600!important;
 }
 .dropdown-item{
     font-weight: 800;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 2;
 }
 
@@ -565,7 +567,7 @@ background-color: #0E0A31;
 
 #logo-slider-sec {
     background: #F8F8F8;
-    margin: 45px 0px;
+    /* margin: 45px 0px; */
 }
 
 .logo-slider-con {
@@ -603,9 +605,7 @@ background-color: #0E0A31;
 
 
    /*--------------------Custmor Section-6 ------------------*/
-#custmor{
-    margin: 20px 0px;
-}
+
 .containers {
     width: 99%;
 }
